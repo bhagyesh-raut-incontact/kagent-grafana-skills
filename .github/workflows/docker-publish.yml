@@ -27,6 +27,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: .
+          context: ./grafana-apm-skill
           push: true
           tags: ghcr.io/bhagyesh-raut-incontact/grafana-apm-skill:0.1.0
