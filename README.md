@@ -12,6 +12,7 @@ Git-based [kagent](https://github.com/kagent-dev/kagent) skills for Grafana obse
 | [`grafana-incident-management`](./grafana-incident-management/SKILL.md) | Create, list, and manage incidents using Grafana IRM, including OnCall schedules and shift information |
 | [`prometheus-querying`](./prometheus-querying/SKILL.md) | Query Prometheus metrics using PromQL, list available metrics and labels, and interpret time series data |
 | [`loki-log-querying`](./loki-log-querying/SKILL.md) | Query Loki for application and infrastructure logs using LogQL, filter and search logs, and retrieve statistics |
+| [`grafana-apm-skill`](./grafana-apm-skill/SKILL.md) | Monitor application performance using Grafana APM tools — query distributed traces with Tempo, analyze profiling data with Pyroscope, and compute RED metrics for services |
 
 ## Using These Skills with kagent
 
