@@ -153,9 +153,9 @@ quantile_over_time(0.99, { status = ok }[5m], duration) by (.service.name)
 |--------|---------------|-------------|
 | Rate | `rate(requests_total[5m])` | Requests per second |
 | Error rate | `rate(errors_total[5m]) / rate(requests_total[5m])` | Fraction of failing requests |
-| P50 latency | `histogram_quantile(0.50, rate(duration_bucket[5m]))` | Median response time |
-| P95 latency | `histogram_quantile(0.95, rate(duration_bucket[5m]))` | 95th percentile response time |
-| P99 latency | `histogram_quantile(0.99, rate(duration_bucket[5m]))` | 99th percentile response time |
+| P50 latency | `histogram_quantile(0.50, sum(rate(duration_bucket[5m])) by (le))` | Median response time |
+| P95 latency | `histogram_quantile(0.95, sum(rate(duration_bucket[5m])) by (le))` | 95th percentile response time |
+| P99 latency | `histogram_quantile(0.99, sum(rate(duration_bucket[5m])) by (le))` | 99th percentile response time |
 
 ## Best Practices
 
