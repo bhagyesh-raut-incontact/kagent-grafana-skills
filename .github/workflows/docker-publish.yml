@@ -29,4 +29,4 @@ jobs:
         with:
           context: ./grafana-apm-skill
           push: true
-          tags: ghcr.io/bhagyesh-raut-incontact/grafana-apm-skill:0.1.0
+          tags: ghcr.io/bhagyesh-raut-incontact/grafana-apm-skill:0.2.0
