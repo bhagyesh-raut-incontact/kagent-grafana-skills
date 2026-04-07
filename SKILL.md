@@ -1,9 +1,9 @@
 ---
-name: grafana-skills
+name: kagent-grafana-skills
 description: A comprehensive set of Grafana observability skills — manage dashboards, datasources, alerts, incidents, query Prometheus metrics, Loki logs, and APM traces/profiles.
 ---
 
-# Grafana Skills
+# Kagent Grafana Skills
 
 This skill aggregates all Grafana observability capabilities into a single entry point for kagent. It covers alerting, APM (traces and profiling), dashboard management, datasource management, incident management, log querying with Loki, and metrics querying with Prometheus.
 
